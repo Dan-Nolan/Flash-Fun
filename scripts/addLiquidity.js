@@ -1,8 +1,8 @@
 const { abi: routerAbi } = require("@uniswap/v2-periphery/build/IUniswapV2Router02");
 
 // TODO: add token and router addr
-const tokenAddress = "";
-const uniswapRouterAddr = "";
+const tokenAddress = ""
+const uniswapRouterAddr = "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D";
 
 const depositAmt = ethers.utils.parseEther("10000");
 
